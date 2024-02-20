@@ -9,6 +9,11 @@ function SubmitButton() {
               className='px-5 py-1 border border-orange-500'>
               {pending ? "pending..." : "Save Item"}
          </button>
+         <button
+             type = 'submit'
+              className='px-5 py-1 border border-orange-500'>
+              {pending ? "pending..." : "Save Item"}
+         </button>
     </>
   );
     
